@@ -18,4 +18,3 @@ Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau seb
 ## VLSM
 ### VLSM Tree
 ![Diagram Tanpa Judul drawio (1)](https://github.com/Sirund/Jarkom-Modul-4-D24-2023/assets/120204570/de33ee17-5957-4662-b36e-6be845befd33)
-
