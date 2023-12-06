@@ -4,16 +4,21 @@
 | :--------------------------------: | :--------: |
 |            Daffa Saskara           | 5025211249 |
 |      Arundaya Pratama Nurhasan     | 5025221206 |
-# Soal
+## Soal
 1. Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda.
 Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau sebaliknya
 2. Jika tidak ada pemberitahuan revisi soal dari asisten, berarti semua soal BERSIFAT BENAR dan DAPAT DIKERJAKAN.
 3. Untuk di GNS3 CLOUD merupakan NAT1 jangan sampai salah agar bisa terkoneksi internet.
 4. Pembagian IP menggunakan Prefix IP yang telah ditentukan pada modul pengenalan
 5. Pembagian IP dan routing harus SE-EFISIEN MUNGKIN.
-## Topologi dan Pembagian Subnet
-### Cisco Packet Tracer
-### GNS3
+# Topologi dan Pembagian Subnet
+## Cisco Packet Tracer
+![cidrcpt](https://github.com/Sirund/Jarkom-Modul-4-D24-2023/assets/88588446/6aa1226a-94d4-448a-861c-09abab8a2252)
+### CPT Tree
+![cidrtree](https://github.com/Sirund/Jarkom-Modul-4-D24-2023/assets/88588446/9084e75f-eebf-401b-b038-6f51fbe7ae6b)
+### CPT Pembagian IP
+![cptip](https://github.com/Sirund/Jarkom-Modul-4-D24-2023/assets/88588446/1f77bdec-3e47-464b-9abc-75f8784d9aa4)
+## GNS3
 ![Topologi_gns](https://github.com/Sirund/Jarkom-Modul-4-D24-2023/assets/120204570/874b1906-d0f9-41f3-b287-a3b3067a7f26)
 ## VLSM
 ### VLSM Tree
