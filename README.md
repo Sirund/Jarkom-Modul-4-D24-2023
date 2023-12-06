@@ -17,5 +17,5 @@ Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau seb
 ![Topologi_gns](https://github.com/Sirund/Jarkom-Modul-4-D24-2023/assets/120204570/874b1906-d0f9-41f3-b287-a3b3067a7f26)
 ## VLSM
 ### VLSM Tree
-
+![Diagram Tanpa Judul drawio (1)](https://github.com/Sirund/Jarkom-Modul-4-D24-2023/assets/120204570/de33ee17-5957-4662-b36e-6be845befd33)
 
