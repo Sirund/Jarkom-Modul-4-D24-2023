@@ -388,5 +388,90 @@ iface eth1 inet static
 	netmask 255.255.255.248
 	gateway 192.203.24.97
 ```
+Kemmudian konfigurasi routing pada tiap node dengan melakukan command berikut
+- Aura
+```bash
+route add -net 192.203.23.0 netmask 255.255.255.0 gw 192.203.24.146 #18
 
+route add -net 192.203.24.64 netmask 255.255.255.224 gw 192.203.24.142 #20
+route add -net 192.203.12.0 netmask 255.255.252.0 gw 192.203.24.142 #14
+route add -net 192.203.24.136 netmask 255.255.255.252 gw 192.203.24.142 #15
+route add -net 192.203.24.96 netmask 255.255.255.248 gw 192.203.24.142 #6
+route add -net 192.203.24.96 netmask 255.255.255.248 gw 192.203.24.142 #11
+route add -net 192.203.24.96 netmask 255.255.255.248 gw 192.203.24.142 #19
+route add -net 192.203.0.0 netmask 255.255.248.0 gw 192.203.24.142 #21
 
+route add -net 192.203.22.0 netmask 255.255.255.0 gw 192.203.24.130 #5
+route add -net 192.203.8.0 netmask 255.255.252.0 gw 192.203.24.130 #10
+route add -net 192.203.20.0 netmask 255.255.254.0 gw 192.203.24.130 #2
+route add -net 192.203.24.132 netmask 255.255.255.252 gw 192.203.24.130 #13
+route add -net 192.203.24.104 netmask 255.255.255.248 gw 192.203.24.130 #8
+route add -net 192.203.24.120 netmask 255.255.255.252 gw 192.203.24.130 #9
+route add -net 192.203.24.116 netmask 255.255.255.252 gw 192.203.24.130 #7
+route add -net 192.203.24.0 netmask 255.255.255.192 gw 192.203.24.130 #3
+route add -net 192.203.24.112 netmask 255.255.255.252 gw 192.203.24.130 #4
+route add -net 192.203.16.0 netmask 255.255.252.0 gw 192.203.24.130 #1
+```
+- Denken
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.145 #17
+```
+- Frieren
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.141 #16 
+
+route add -net 192.203.12.0 netmask 255.255.252.0 gw 192.203.24.138 #14
+route add -net 192.203.24.96 netmask 255.255.255.248 gw 192.203.24.138 #6
+route add -net 192.203.0.0 netmask 255.255.248.0 gw 192.203.24.138 #21 
+route add -net 192.203.24.148 netmask 255.255.255.252 gw 192.203.24.138 #19
+route add -net 192.203.24.124 netmask 255.255.255.252 gw 192.203.24.138 #11
+```
+- Flamme
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.137 #15
+
+route add -net 192.203.0.0 netmask 255.255.248.0 gw 192.203.24.150 #21 
+route add -net 192.203.24.96 netmask 255.255.255.248 gw 192.203.24.126 #6
+```
+- Fern
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.149 #19
+```
+- Himmel
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.125 #11
+```
+- Eisen
+```bash
+#8
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.129 #12
+
+route add -net 192.203.22.0 netmask 255.255.255.0 gw 192.203.24.122 #5
+route add -net 192.203.8.0 netmask 255.255.252.0 gw 192.203.24.122 #10
+
+route add -net 192.203.20.0 netmask 255.255.254.0 gw 192.203.24.118 #2
+route add -net 192.203.24.0 netmask 255.255.255.192 gw 192.203.24.118 #3
+route add -net 192.203.24.112 netmask 255.255.255.252 gw 192.203.24.118 #4
+route add -net 192.203.16.0 netmask 255.255.252.0 gw 192.203.24.118 #1
+```
+- Lugner
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.121
+```
+- Linie
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.117 #7
+
+route add -net 192.203.24.0 netmask 255.255.255.192 gw 192.203.24.114 #3
+route add -net 192.203.16.0 netmask 255.255.252.0 gw 192.203.24.114 #1
+```
+- Lawine
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.113 #4
+
+route add -net 192.203.16.0 netmask 255.255.252.0 gw 192.203.24.2 #1
+```
+- Heiter
+```bash
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.203.24.1 #3
+```
